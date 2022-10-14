@@ -8,7 +8,7 @@ Namespace My
     ' StartupNextInstance: Raised when launching a single-instance application and the application is already active. 
     ' NetworkAvailabilityChanged: Raised when the network connection is connected or disconnected.
 
-    ' **NEW** ApplyApplicationDefaults: Raised when the application queries default values to be set for the application.
+' **NEW** ApplyApplicationDefaults: Raised when the applicopation queries default values to be set for the application.
 
     ' Example:
     ' Private Sub MyApplication_ApplyApplicationDefaults(sender As Object, e As ApplyApplicationDefaultsEventArgs) Handles Me.ApplyApplicationDefaults
@@ -22,7 +22,7 @@ Namespace My
     '   ' If a splash dialog is used, this sets the minimum display time:
     '   e.MinimumSplashScreenDisplayTime = 4000
     ' End Sub
-
+dim driner as integer
     Partial Friend Class MyApplication
 
     End Class
